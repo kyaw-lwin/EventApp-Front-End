@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/EventApp-Front-End/static/css/main.acbf3200.chunk.css",
+    "main.js": "/EventApp-Front-End/static/js/main.18dac37b.chunk.js",
+    "main.js.map": "/EventApp-Front-End/static/js/main.18dac37b.chunk.js.map",
+    "runtime-main.js": "/EventApp-Front-End/static/js/runtime-main.b454cfae.js",
+    "runtime-main.js.map": "/EventApp-Front-End/static/js/runtime-main.b454cfae.js.map",
+    "static/js/2.ccf9708f.chunk.js": "/EventApp-Front-End/static/js/2.ccf9708f.chunk.js",
+    "static/js/2.ccf9708f.chunk.js.map": "/EventApp-Front-End/static/js/2.ccf9708f.chunk.js.map",
+    "index.html": "/EventApp-Front-End/index.html",
+    "precache-manifest.140eaf710920ac4d94cc3e0ab30428d7.js": "/EventApp-Front-End/precache-manifest.140eaf710920ac4d94cc3e0ab30428d7.js",
+    "service-worker.js": "/EventApp-Front-End/service-worker.js",
+    "static/css/main.acbf3200.chunk.css.map": "/EventApp-Front-End/static/css/main.acbf3200.chunk.css.map",
+    "static/js/2.ccf9708f.chunk.js.LICENSE.txt": "/EventApp-Front-End/static/js/2.ccf9708f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/EventApp-Front-End/static/media/event image 1.33ef4db5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b454cfae.js",
+    "static/js/2.ccf9708f.chunk.js",
+    "static/css/main.acbf3200.chunk.css",
+    "static/js/main.18dac37b.chunk.js"
+  ]
+}
