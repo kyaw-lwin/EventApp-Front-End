@@ -1,0 +1,193 @@
+/* 
+
+.AddEvent {
+  background-color: rgb(255, 255, 255, 0.65);
+  margin: 50px;
+  padding: 50px;
+  display: inline-block; 
+}
+
+.EventList {
+  background-color: rgb(255, 255, 255, 0.65);
+  margin: 50px;
+  padding: 50px;
+  display: inline-block; 
+  color: black;
+  position: absolute;
+} */
+:root {
+  --primary:hsl(197, 37%, 24%, 1);
+  --secondary:hsl(173, 58%, 39% ,0.75);
+  --third:hsl(173, 58%, 39% ,0.5);
+  --forth:hsl(173, 58%, 39% ,0.25);
+  --fith:hsl(173, 58%, 39% ,0.1);
+}
+
+
+body {
+  height:1010px;
+
+    background: linear-gradient(85deg, var(--primary), var(--secondary), var(--third), var(--forth), var(--fith)),
+                url(event\ image\ 1.jpg) no-repeat center center / cover;
+                /* animation: gradient 10s ease infinite; */
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kanit&family=Righteous&family=Roboto:wght@300;500;700&family=Staatliches&display=swap');
+body1 {
+    /* background: linear-gradient(-45deg, #264653,  #2a9d8f,  #e9c46a,  #f4a261, #e76f51); */
+
+    /* height:820px; */
+
+    background: linear-gradient(-45deg, hsla(197, 37%, 24%, 0.3) hsl(173, 58%, 39%, 0.3),  hsla(43, 74%, 66%, 0.3),  hsla(27, 87%, 67%, 0.3),
+     hsla(12, 76%, 61%, 0.3)), url(event\ image\ 1.jpg) no-repeat center center / cover;
+
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height:820px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.loginpage-header {
+    display: flex;
+    justify-content: center;
+    font-family: Staatliches, cursive;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.loginheader {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.logininput {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial;
+}
+.login-submit {
+    background: linear-gradient(-45deg, #264653,  #2a9d8f,  #e9c46a,  #f4a261, #e76f51);
+    border-width: 3px;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+.login-submit2 {
+  background: linear-gradient(-45deg, #264653,  #2a9d8f,  #e9c46a,  #f4a261, #e76f51);
+  border-width: 3px;
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.login-submitButton {
+	display: flex;
+	justify-content: center;
+}
+
+
+/* /********************************************************************************************************************************/
+
+.mainpage-header {
+    display: flex;
+    justify-content: center;
+    font-family: Staatliches, cursive;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.update-event {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: rgb(255, 255, 255, 0.35); */
+}
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Staatliches, cursive;
+    /* width: auto; */
+    padding-left: 150px;
+    height: auto;
+
+}
+.addForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Staatliches, cursive;
+  /* width: auto; */
+  /* padding-right: 30px; */
+}
+
+
+#startbutton
+{
+  background-color:#e9ab12;
+  border: #970104 solid;
+  border-width: 5px;
+  border-radius: 50px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: josefin sans;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 30% ;
+  /* display: inline-block; */
+	justify-content: center;
+ 
+}
+
+.add-submitButton {
+	display: flex;
+	justify-content: center;
+}
+
+table { 
+  border-collapse:collapse; 
+  
+}
+
+th {
+  justify-content: left;
+  margin: 0px;
+  padding-right: 100px;
+}
+
+
+td { 
+  border-top: 1px solid #000; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
