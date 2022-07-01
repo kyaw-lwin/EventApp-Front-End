@@ -8,6 +8,7 @@ export class ApiClient {
     this.logoutHandler = logoutHandler;
   }
 
+  
   authenticatedCall(method, url, data) {
     return axios({
       method,
